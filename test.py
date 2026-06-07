@@ -1,6 +1,9 @@
-import pandas as pd
-import numpy as np
+from database.connection import engine
 
-print("Setup Successful")
-print("Pandas:", pd.__version__)
-print("NumPy:", np.__version__)
+try:
+    conn = engine.connect()
+    print("✅ PostgreSQL connected successfully!")
+    conn.close()
+except Exception as e:
+    print("❌ Database connection failed:")
+    print(e)
