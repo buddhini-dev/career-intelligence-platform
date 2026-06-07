@@ -11,3 +11,7 @@ dist/
 build/
 
 data/*.csv
+
+# in .gitignore
+ml/models/*.pkl
+data/*.csv
