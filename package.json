@@ -1,0 +1,30 @@
+{
+  "name": "career-intelligence-platform",
+  "version": "1.0.0",
+  "description": "AI-powered platform that collects, analyzes, and predicts technology job market trends using data engineering, machine learning, and interactive dashboards.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddhini-dev/career-intelligence-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/buddhini-dev/career-intelligence-platform/issues"
+  },
+  "homepage": "https://github.com/buddhini-dev/career-intelligence-platform#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
